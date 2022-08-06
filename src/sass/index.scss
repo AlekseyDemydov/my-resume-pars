@@ -1,2 +1,4 @@
-@import './common';
-@import './example';
+@import './base';
+@import './layers/sideBar';
+@import './layers/content';
+@import './layers/modal';

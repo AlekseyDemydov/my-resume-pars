@@ -1,0 +1,70 @@
+.side-bar {
+  margin-left: 20px;
+  &-content {
+    @media (min-width: 320px) and (max-width: 767px) {
+      max-width: 210px;
+    }
+
+    @media screen and (min-width: 768px) {
+      max-width: 200px;
+      margin-left: 20px;
+    }
+
+    @media screen and (min-width: 1366px) {
+      max-width: 400px;
+      margin-left: 80px;
+    }
+  }
+  @media (min-width: 320px) and (max-width: 767px) {
+    min-width: 310px;
+    max-width: 370px;
+    margin: 0;
+  }
+
+  @media screen and (min-width: 768px) {
+    max-width: 250px;
+    margin-right: 20px;
+  }
+
+  @media screen and (min-width: 1366px) {
+    max-width: 420px;
+  }
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    &-item {
+      display: flex;
+      align-items: baseline;
+    }
+    &-item {
+      display: flex;
+      align-items: baseline;
+    }
+    &-item p {
+      margin: 0;
+    }
+  }
+}
+.contact-item {
+  display: flex;
+  align-items: baseline;
+}
+.contacts a:not(:last-child) {
+  margin-bottom: 10px;
+}
+.photo {
+  border-radius: 30px;
+  @media (min-width: 320px) and (max-width: 480px) {
+    max-width: 280px;
+  }
+  @media (min-width: 381px) and (max-width: 767px) {
+    max-width: 300px;
+  }
+  @media screen and (min-width: 768px) {
+    max-width: 230px;
+  }
+
+  @media screen and (min-width: 1366px) {
+    max-width: 400px;
+  }
+}
