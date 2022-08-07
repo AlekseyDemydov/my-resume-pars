@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",(function(){var o=document.querySelectorAll(".res-content-project-item"),e=document.querySelector(".photo");window.addEventListener("scroll",(function(){var t,n;t=window.innerHeight/4+window.scrollY,o.forEach((function(o){var e=o.offsetTop+o.offsetHeight;t>e?o.classList.add("animation"):o.classList.remove("animation")})),n=window.scrollY,console.log(n),console.log(0),0===n?e.classList.add("active"):e.classList.remove("active")}))}));
+//# sourceMappingURL=index.c4958eda.js.map

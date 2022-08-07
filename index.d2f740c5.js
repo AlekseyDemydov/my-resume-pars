@@ -1,2 +1,0 @@
-document.addEventListener("DOMContentLoaded",(function(){var n=document.querySelectorAll(".res-content-project-item"),t=function(){var t=window.innerHeight/4+window.scrollY;n.forEach((function(n){var e=n.offsetTop+n.offsetHeight;t>e?n.classList.add("animation"):n.classList.remove("animation")}))};t(),window.addEventListener("scroll",(function(){t()}))}));
-//# sourceMappingURL=index.d2f740c5.js.map

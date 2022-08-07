@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",(()=>{const e=document.querySelectorAll(".res-content-project-item"),o=document.querySelector(".photo");window.addEventListener("scroll",(()=>{(()=>{let o=window.innerHeight/4+window.scrollY;e.forEach((e=>{let t=e.offsetTop+e.offsetHeight;o>t?e.classList.add("animation"):e.classList.remove("animation")}))})(),(()=>{let e=window.scrollY;console.log(e),console.log(0),0===e?o.classList.add("active"):o.classList.remove("active")})()}))}));
+//# sourceMappingURL=index.d13cc554.js.map
