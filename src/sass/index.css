@@ -189,6 +189,37 @@ a {
   }
 }
 
+@-webkit-keyframes phtoLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes phtoLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+.active {
+  -webkit-animation: phtoLeft 1000ms 0s linear;
+          animation: phtoLeft 1000ms 0s linear;
+}
+
 .res-content {
   background-color: rgba(242, 246, 251, 0.077);
   display: -webkit-box;
@@ -426,43 +457,43 @@ a {
 
 @media (min-width: 381px) and (max-width: 1365px) {
   .animation:nth-child(1) {
-    -webkit-animation: itemLeft 3000ms;
-            animation: itemLeft 3000ms;
+    -webkit-animation: itemLeft 1000ms 0s linear;
+            animation: itemLeft 1000ms 0s linear;
   }
 }
 
 @media screen and (min-width: 1366px) {
   .animation:nth-child(1) {
-    -webkit-animation: itemUp 3000ms;
-            animation: itemUp 3000ms;
+    -webkit-animation: itemUp 1000ms 0s linear;
+            animation: itemUp 1000ms 0s linear;
   }
 }
 
 @media (min-width: 381px) and (max-width: 1365px) {
   .animation:nth-child(2) {
-    -webkit-animation: itemRight 3000ms;
-            animation: itemRight 3000ms;
+    -webkit-animation: itemRight 1000ms 0s linear;
+            animation: itemRight 1000ms 0s linear;
   }
 }
 
 @media screen and (min-width: 1366px) {
   .animation:nth-child(2) {
-    -webkit-animation: itemDown 3000ms;
-            animation: itemDown 3000ms;
+    -webkit-animation: itemDown 1000ms 0s linear;
+            animation: itemDown 1000ms 0s linear;
   }
 }
 
 @media (min-width: 381px) and (max-width: 1365px) {
   .animation:nth-child(3) {
-    -webkit-animation: itemLeft 3000ms;
-            animation: itemLeft 3000ms;
+    -webkit-animation: itemLeft 1000ms 0s linear;
+            animation: itemLeft 1000ms 0s linear;
   }
 }
 
 @media screen and (min-width: 1366px) {
   .animation:nth-child(3) {
-    -webkit-animation: itemUp 3000ms;
-            animation: itemUp 3000ms;
+    -webkit-animation: itemUp 1000ms 0s linear;
+            animation: itemUp 1000ms 0s linear;
   }
 }
 
