@@ -2,11 +2,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const projectItem = document.querySelectorAll('.res-content-project-item');
 
   const scrollAnimation = () => {
-    let center = window.innerHeight / 2;
+    let center = window.innerHeight / 4;
     let projectCenter = center + window.scrollY;
     projectItem.forEach(el => {
       let scrollTop = el.offsetTop + el.offsetHeight;
-      if (projectCenter >= scrollTop) {
+      if (projectCenter > scrollTop) {
         el.classList.add('animation');
       } else {
         el.classList.remove('animation');
