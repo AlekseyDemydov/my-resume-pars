@@ -148,7 +148,15 @@ a {
   margin: 0;
 }
 
-.contact-item {
+.title-contacts {
+  opacity: 0;
+}
+
+.contacts {
+  opacity: 0;
+}
+
+.contacts-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -163,6 +171,7 @@ a {
 
 .photo {
   border-radius: 30px;
+  opacity: 0;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -215,9 +224,42 @@ a {
   }
 }
 
-.active {
+@-webkit-keyframes phtoRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes phtoRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+.activeLeft {
   -webkit-animation: phtoLeft 1000ms 0s linear;
           animation: phtoLeft 1000ms 0s linear;
+  opacity: 1;
+}
+
+.activeRight {
+  -webkit-animation: phtoRight 1000ms 0s linear;
+          animation: phtoRight 1000ms 0s linear;
+  opacity: 1;
 }
 
 .res-content {
@@ -457,43 +499,43 @@ a {
 
 @media (min-width: 381px) and (max-width: 1365px) {
   .animation:nth-child(1) {
-    -webkit-animation: itemLeft 1000ms 0s linear;
-            animation: itemLeft 1000ms 0s linear;
+    -webkit-animation: itemLeft 3000ms 0s linear;
+            animation: itemLeft 3000ms 0s linear;
   }
 }
 
 @media screen and (min-width: 1366px) {
   .animation:nth-child(1) {
-    -webkit-animation: itemUp 1000ms 0s linear;
-            animation: itemUp 1000ms 0s linear;
+    -webkit-animation: itemUp 3000ms 0s linear;
+            animation: itemUp 3000ms 0s linear;
   }
 }
 
 @media (min-width: 381px) and (max-width: 1365px) {
   .animation:nth-child(2) {
-    -webkit-animation: itemRight 1000ms 0s linear;
-            animation: itemRight 1000ms 0s linear;
+    -webkit-animation: itemRight 3000ms 0s linear;
+            animation: itemRight 3000ms 0s linear;
   }
 }
 
 @media screen and (min-width: 1366px) {
   .animation:nth-child(2) {
-    -webkit-animation: itemDown 1000ms 0s linear;
-            animation: itemDown 1000ms 0s linear;
+    -webkit-animation: itemDown 3000ms 0s linear;
+            animation: itemDown 3000ms 0s linear;
   }
 }
 
 @media (min-width: 381px) and (max-width: 1365px) {
   .animation:nth-child(3) {
-    -webkit-animation: itemLeft 1000ms 0s linear;
-            animation: itemLeft 1000ms 0s linear;
+    -webkit-animation: itemLeft 3000ms 0s linear;
+            animation: itemLeft 3000ms 0s linear;
   }
 }
 
 @media screen and (min-width: 1366px) {
   .animation:nth-child(3) {
-    -webkit-animation: itemUp 1000ms 0s linear;
-            animation: itemUp 1000ms 0s linear;
+    -webkit-animation: itemUp 3000ms 0s linear;
+            animation: itemUp 3000ms 0s linear;
   }
 }
 
