@@ -2,7 +2,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const projectItem = document.querySelectorAll('.res-content-project-item');
 
   const scrollAnimation = () => {
-    let projectCenter = window.innerHeight / 2 + window.scrollY;
+    let center = window.innerHeight / 2;
+    let projectCenter = center + window.scrollY;
     projectItem.forEach(el => {
       let scrollTop = el.offsetTop + el.offsetHeight;
       if (projectCenter >= scrollTop) {
