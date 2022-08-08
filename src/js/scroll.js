@@ -38,9 +38,6 @@ document.addEventListener('DOMContentLoaded', () => {
     if (scrollSoft > 1000) {
       softSkills.classList.remove('activeRight');
     }
-    if (scrollSoft === softSkilsCenter) {
-      softSkills.classList.remove('activeRight');
-    }
   };
 
   let center = window.innerHeight / 4;
