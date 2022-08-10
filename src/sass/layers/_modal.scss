@@ -78,6 +78,9 @@
     border-top: none;
     padding: 5px;
     width: 100%;
+    &:focus {
+      outline: none;
+    }
   }
 }
 
@@ -90,6 +93,9 @@
   height: 100px;
   border: 1px solid #000;
   border-radius: 5px;
+  &:focus {
+    outline: none;
+  }
 }
 
 .btn-submit {
