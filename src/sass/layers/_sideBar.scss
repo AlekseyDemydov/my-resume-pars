@@ -59,6 +59,12 @@
 .contacts a:not(:last-child) {
   margin-bottom: 10px;
 }
+.tech-skills {
+  opacity: 0;
+}
+.soft-skills {
+  opacity: 0;
+}
 .photo {
   border-radius: 30px;
   opacity: 0;
@@ -98,12 +104,7 @@
     transform: translateX(0);
   }
 }
-.tech-skills {
-  opacity: 0;
-}
-.soft-skills {
-  opacity: 0;
-}
+
 .activeLeft {
   animation: phtoLeft 1000ms 0s linear;
   opacity: 1;
