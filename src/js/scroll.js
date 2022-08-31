@@ -29,9 +29,9 @@ document.addEventListener('DOMContentLoaded', () => {
       techSkills.classList.remove('activeLeft');
     }
     let softSkilsCenter = softSkills.offsetHeight;
-    console.log('softSkilsCenter', softSkilsCenter);
+   
     let scrollSoft = centerWind + softSkilsCenter;
-    console.log('scrollSoft', scrollSoft);
+    
     if (scrollSoft > softSkilsCenter) {
       softSkills.classList.add('activeRight');
     }
