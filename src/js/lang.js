@@ -75,4 +75,16 @@ const langArr = {
     "en": "send",
     "ua":"Відправити"
   },
+  "date": {
+    "en": "Apr 2022- present",
+    "ua":"Квітень 2022- дотепер"
+  },
+  "vuz": {
+    "en": "T.H. SHEVCHENKO NATIONAL UNIVERSITY CHERNIHIV COLEHIUM (NUCHK)",
+    "ua":"Національний університет Чернігівський колегіум імені Т.Г. Шевченка"
+  },
+  "fak": {
+    "en": "Faculty of Physics and Mathematics, specialty: mathematics and informatics | Sep 2019 - present",
+    "ua":"Фізико-математичний факультет, спеціальність: математика-інформатика | Вересень 2019 - дотепер"
+  },
 };

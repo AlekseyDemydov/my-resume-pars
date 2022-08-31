@@ -20,9 +20,7 @@
   @media screen and (min-width: 1366px) {
     max-width: 820px;
   }
-  ul {
-    list-style: none;
-  }
+
 
   a {
     color: white;
@@ -32,6 +30,7 @@
     padding: 10px;
     position: relative;
     overflow: hidden;
+    list-style: none;
 
     @media screen and (max-width: 767px) {
       flex-direction: column;
@@ -156,4 +155,8 @@
       margin-bottom: 10px;
     }
   }
+}
+.dot{
+  list-style: disc;
+  margin: 0;
 }
