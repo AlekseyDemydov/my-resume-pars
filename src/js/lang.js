@@ -107,20 +107,4 @@ const langArr = {
     "en": "Russian - Advanced",
     "ua": "Російська - Просунутий",
   },
-  // "roleOne": {
-  //   "en": "Educational practice",
-  //   "ua": "Hавчальна практика",
-  // },
-  // "roleTwo": {
-  //   "en": "A website with a responsive layout. Role: Team Lead.",
-  //   "ua": "Веб-сайт із адаптивним макетом. Посада: Kерівник групи.",
-  // },
-  // "roleThree": {
-  //   "en": "Application for choosing a movie. Role: Developer",
-  //   "ua": "Додаток для вибору фільму. Роль: Розробник",
-  // },
-  // "roleFour": {
-  //   "en": "Application for counting funds. Role: Scrum Master",
-  //   "ua": "Додаток для підрахунку коштів. Роль: Скрам майстер",
-  // },
 };
