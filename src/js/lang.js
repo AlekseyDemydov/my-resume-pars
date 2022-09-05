@@ -107,4 +107,8 @@ const langArr = {
     "en": "Russian - Advanced",
     "ua": "Російська - Просунутий",
   },
+  "pdf": {
+    "en": "download resume PDF",
+    "ua": "завантажити резюме PDF",
+  },
 };

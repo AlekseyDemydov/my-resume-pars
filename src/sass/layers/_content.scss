@@ -21,9 +21,6 @@
     max-width: 820px;
   }
 
-  a {
-    color: white;
-  }
   &-project {
     display: flex;
     padding: 10px;
@@ -64,16 +61,20 @@
   box-shadow: 2px 2px 5px rgb(197, 182, 182);
 
   border-radius: 5px;
-  padding: 10px 40px;
+  padding: 10px 20px;
   border: none;
   font-size: large;
   font-weight: 700;
   margin-left: auto;
+  color: black;
   &:hover {
     background-color: rgb(35, 241, 211);
     transition: background-color, box-shadow 250ms linear;
     box-shadow: 10px 5px 5px rgb(81, 70, 70);
   }
+}
+a {
+  color: white;
 }
 .btnPdff {
   display: flex;
