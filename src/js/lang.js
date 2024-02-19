@@ -71,6 +71,10 @@ const langArr = {
     "en": "send me",
     "ua": "Написати мені",
   },
+  "modalTitle": {
+    "en": "This is a working mod, you can contact me",
+    "ua": "Це робоча модалка, Ви зможете зв'язатись зі мною",
+  },
   "follow": {
     "en": "follow me",
     "ua": "Зв'язатися зі мною",

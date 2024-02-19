@@ -1,7 +1,7 @@
 import axios from 'axios';
 import Notiflix from 'notiflix';
-const TOKEN = '5549614485:AAGcY5K-gkQFyyVmnVfvya0DsrcbL9Zi1h8';
-const CHAT_ID = '-1001623087825';
+const TOKEN = '6997643659:AAEVVD-eSgi1sXEU_-ILq_NpfaPdUw5_pso';
+const CHAT_ID = '1054670906';
 const URI_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
 const form = document.getElementById('rg');
 
